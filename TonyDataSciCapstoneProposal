@@ -1,0 +1,11 @@
+Data set: https://www.kaggle.com/mirichoi0218/insurance
+
+Problem: which combination of factors would create the most expensive medical bills?
+
+Hypothesis:  Obese old smokers from will have the most expensive bills because everything is more expensive in big cities.
+
+The goal is to find correlation between the cost and factors like gender, age, smoking, bmi, and region the person is hospitalized at. Clustering, r-value, and cross-validation will be used.
+
+As for the clustering, I will separate each option by each column. For gender is male and female. Smoking is smoker or non smoker. The BMI will be separated like the official BMI scale, < 18.5, 18.5 to 24.9, 25 to 29.9, and over 30. For age, it will be separated into 3 groups, young adulthood (18 to 35 years), middle age (36 to 55 years), and older adulthood (56 years and older). The column of number of children also exists, ranging from 0-5. I will see if the number of children will have an impact on hospital bills. And as for region, it has NE, NW, SW, and SE.
+
+Risk: There’s no risk but the limitation is not being able to know which type of disease, illness, or cause for the hospitalization. Is it a car crash, heart attack, or cancer? Also the region columns only show if it is Southeast, Southwest, Northeast, and Northwest. The US is too large whether the hospital is located in a rural, a suburb, or an urban location. 
